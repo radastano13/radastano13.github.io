@@ -1,0 +1,267 @@
+body {
+   margin: 0;
+   padding: 0;
+   background-image: url(../fondo.png);
+   font-family: "Poppins";
+}
+
+.banner{
+   width: 100%;
+   padding: 9rem 3rem;
+   text-align: center;
+   background: url("../img/cabecera.png");
+   background-color: rgba(149, 11, 223, 0.853);
+   background-blend-mode: soft-light;
+   background-size: cover;
+   background-position: center;
+   box-sizing: border-box;
+}
+
+.formHeader {
+   height: 50px;
+   text-align: center;
+}
+
+.banner h1 {
+   color: #f1f1f1; 
+}
+
+.container {
+   width: 100%;
+   height: 60px;
+   background: #3d3d3d;
+   display:flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 5rem;
+   box-sizing: border-box;
+   position: sticky;
+   top: 0px;
+}
+
+.item-options {
+   color: #f1f1f1;
+   margin: 0 1.5rem;
+   text-decoration: none;
+}
+
+.main-container {
+   width: 100px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.article {
+   width: 70%;
+}
+
+.wave{
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 150px;
+   left: 0;
+   background-image: url(../fondo\ sol.png);
+   background-position: bottom;
+}
+.logo{
+   width: 40px;
+   margin: 0;
+}
+
+.logo img{
+   width: 100%;
+}
+
+.item-options {
+   color: #f1f1f1;
+   margin: 0 5rem;
+   text-decoration: none;
+}
+
+.sticky{
+   position: fixed;
+   background: hsla(0, 1%, 57%, 0.5);
+   z-index: 1;
+   width: 100%;
+   top: 0;
+   right: 0;
+}
+nav{
+   text-align: right;
+   padding: 30px 50px 0 0;
+  
+}
+nav a{
+   color: #fff;
+   font-weight: 300;
+   text-decoration: none;
+   margin-right: 10px;
+}
+nav a:hover{
+   text-decoration: underline;
+}
+
+:root {
+   --base: 18px;
+   --rhythm: 32px;
+   --scale-factor: .48;
+ }
+   
+ body, h1, h2, h3, h4, h5, h6 {
+     font-size: calc( var(--base) + (var(--base) * var(--scale-factor) * var(--font-increase, 0)));
+     line-height: calc(var(--rhythm) + (var(--rhythm) * var(--rhythm-increase, 0)));
+ }
+ 
+ h1, h2, h3, h4, h5, h6 {
+     margin: calc(var(--rhythm) * 2) 0 var(--rhythm);
+ }
+ 
+ h1 {
+     --font-increase: 5;
+     --rhythm-increase: 1;
+ }
+ 
+ h2 {
+     --font-increase: 4;
+     --rhythm-increase: 1;
+ }
+ 
+ h3 {
+     --font-increase: 3;
+     --rhythm-increase: 1;
+ }
+ 
+ h4 {
+     --font-increase: 2;
+     --rhythm-increase: .5;
+ }
+ 
+ h5 {
+     --font-increase: 1;
+ }
+
+ .sticky{
+   position: fixed;
+   background: hsla(0, 1%, 57%, 0.5);
+   z-index: 1;
+   width: 100%;
+   top: 0;
+   right: 0;
+}
+nav{
+   text-align: right;
+   padding: 30px 50px 0 0;
+  
+}
+nav a{
+   color: #fff;
+   font-weight: 300;
+   text-decoration: none;
+   margin-right: 10px;
+}
+nav a:hover{
+   text-decoration: underline;
+}
+
+.sticky{
+  position: fixed;
+  background: hsla(0, 1%, 57%, 0.5);
+  z-index: 1;
+  width: 100%;
+  top: 0;
+  right: 0;
+}
+nav{
+  text-align: right;
+  padding: 30px 50px 0 0;
+ 
+}
+nav a{
+  color: #fff;
+  font-weight: 300;
+  text-decoration: none;
+  margin-right: 10px;
+}
+nav a:hover{
+  text-decoration: underline;
+}
+html {
+   font-size: 16px;
+ }
+ 
+ .texto {
+   font-size: 1rem;
+ }
+ 
+
+
+ html {
+   font-size: 16px;
+ }
+ 
+ .texto {
+   font-size: 2rem;
+ }
+ 
+
+
+@media (max-width: 1400px) {
+ html {
+   font-size: 25px;
+ }
+}
+
+@media (max-width: 768px) {
+ html {
+   font-size: 18px;
+ }
+}
+
+
+@media (max-width: 450px) {
+ html {
+   font-size: 12px;
+ }
+}
+html {
+   font-size: 16px;
+ }
+ 
+ .texto {
+   font-size: 3em;
+   padding: 3em;
+ }
+ 
+
+ .footer{
+   background: rgba(130, 214, 229, 0.763);
+   display: flex;
+   justify-content: center;
+   margin-top: 10px;
+   height: 50px;
+}
+   .pie{
+       text-align: center;
+       display: flex;
+       margin-top: 18px;
+       flex-wrap: nowrap;
+       color: #fff;
+       font-size: 11px;
+       text-transform: uppercase;
+       padding: 0px 10px;
+       letter-spacing: 3px;
+   }
+   .pie a{
+       margin-top: 18px;
+       flex-wrap: nowrap;
+       color: #fff;
+       font-size: 14px;
+       text-transform: uppercase;
+       padding: 0px 12px;
+       letter-spacing: 3px;
+   }
+   .pie a:hover{
+       color: #343434;
+   }
